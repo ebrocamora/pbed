@@ -50,7 +50,7 @@
 								<a href="https://www.pbed.ph/youthworksph">YouthWorks PH</a>
 							</li>
 							<li>
-								<a href = "iskwela/index.php"><img src = "img/logo.png" style = "height:4	0px;width:80px;"></a>
+								<a href = "iskwela1/index.php"><img src = "img/logo.png" style = "height:4	0px;width:80px;"></a>
 							</li>
 						</ul>
 					</nav>

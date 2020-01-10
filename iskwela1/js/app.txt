@@ -1,0 +1,91 @@
+const express = require('express');
+const app = express();
+const fs = require('fs'); // FILE STREAM
+const multer = require('multer');
+const PersonalityInsightsV3 = require('ibm-watson/personality-insights/v3');
+const { IamAuthenticator } = require('ibm-watson/auth');
+
+const personalityInsights = new PersonalityInsightsV3({
+  version: '2017-10-13',
+  authenticator: new IamAuthenticator({
+    apikey: 'XIOWaeSyk4Aw1nUT4ylHU6w_frsyrYkWq0wb1oC28Ywg',
+  }),
+  url: 'https://api.us-south.personality-insights.watson.cloud.ibm.com/instances/810688ee-8e27-499b-9f54-2c32e11527d8',
+});
+
+// WRITE TO /uploads
+const storage = multer.diskStorage({
+    destination: (req, file, cb) => {
+        cb(null, './uploads');
+    },
+    filename: (req, file, cb) => {
+        cb(null, file.originalname);
+    }
+});
+
+const upload = multer({storage: storage}).single('avatar');
+
+app.set('view engine', 'ejs');
+
+// ROUTES
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
+app.post('/upload', (req, res) => {
+    upload(req, res, err => {
+        console.log(req.file.originalname);
+        const profileParams = {
+            // Get the content from the JSON file.
+            content: require(`../uploads/${req.file.originalname}`),
+            contentType: 'application/json',
+            consumptionPreferences: true,
+            rawScores: true,
+            };
+
+        (() => {
+            personalityInsights.profile(profileParams)
+            .then((profile) => {
+                res.render('personality', {personalities: processPersonality(profile)});
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+        })();
+    });  
+
+    
+    // res.render('personality');
+});
+
+function processPersonality(data) {
+    result = data.result;
+    personality = result.personality;
+    subPersonality = [];
+
+    personality.forEach((item) => {
+        subPersonality.push(item.children);
+    });
+
+    // for (let i = 0; i < subPersonality.length; i++) {
+    //     for (let j = 0; j < subPersonality[i].length; j++) {
+    //         console.log(subPersonality[i][j].name);
+    //     }
+    // }
+
+    needs = result.needs;
+    values = result.values;
+    behavior = result.behavior;
+
+    var arr = [];
+    personality.forEach(item => {
+        arr.push(item.name);
+    });
+    console.log(arr);
+
+    return personality;
+}
+
+// START SERVER
+const PORT = 5000 || process.env.PORT;
+app.listen(PORT, () => console.log(`Listening in port ${PORT}`));
