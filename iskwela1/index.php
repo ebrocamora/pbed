@@ -29,18 +29,21 @@
       <h1 class="logoname"><a href="index.html"><img src = "images/logo.png" style = "height:100px;width:250px;">&nbsp;<img src = "images/head.jpg"></a></h1>
     </div>
     
-    
+    <!-- ################################################################################################ -->
   </header>
   <nav id="mainav" class="hoc clear"> 
-    
+    <!-- ################################################################################################ -->
     <ul class="clear">
       <li><a href="#personality">&nbsp; &nbsp;Personality Insights</a></li>
       <li><a href="#discovery">&nbsp; &nbsp;Watson Discovery</a></li>
-	  <li><a href="https://www.pbed.ph">&nbsp; &nbsp;PBEd</a></li>
+	  <li><a href="../index.php">&nbsp; &nbsp;PBEd</a></li>
       </ul>
-    
+    <!-- ################################################################################################ -->
   </nav>
 </div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 
 	
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -227,27 +230,23 @@
     <div class="clear">
 		<br>
 		
-		<a href = "personality.html"><p style = "font-size:20px;color:white;text-align:center;background-color:#0047BB;height:30px;width:200px;">Click Here to Try</p></a>
+		<a href = "discovery.php"><p style = "font-size:20px;color:white;text-align:center;background-color:#0047BB;height:30px;width:200px;">Click Here to Try</p></a>
 		
 	
 	</div>
   </section>
 </div>
-</section>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+</section>  
+
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
-    <!-- ################################################################################################ -->
+    
     <p class="fl_left">Copyright &copy; 2018 - All Rights Reserved - <a href="#">Domain Name</a></p>
     <p class="fl_right">Template by <a target="_blank" href="https://www.os-templates.com/" title="Free Website Templates">OS Templates</a></p>
-    <!-- ################################################################################################ -->
+    
   </div>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+
 <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
 
 <!-- JAVASCRIPTS -->

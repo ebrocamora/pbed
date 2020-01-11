@@ -1,14 +1,8 @@
 <!DOCTYPE html>
-<!--
-Template Name: Surogou
-Author: <a href="https://www.os-templates.com/">OS Templates</a>
-Author URI: https://www.os-templates.com/
-Copyright: OS-Templates.com
-Licence: Free to use under our free template licence terms
-Licence URI: https://www.os-templates.com/template-terms
--->
+
+
 <html lang="">
-<!-- To declare your language - read more here: https://www.w3.org/International/questions/qa-html-language-declarations -->
+
 <head>
 <title>Personality Insights</title>
 <meta charset="utf-8">
@@ -16,9 +10,7 @@ Licence URI: https://www.os-templates.com/template-terms
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body id="top">
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
+
 <div class="wrapper row0">
   <div id="topbar" class="hoc clear"> 
   &nbsp;
@@ -43,8 +35,8 @@ Licence URI: https://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
     <ul class="clear">
       <li><a href="index.html">Home</a></li>
-      <li><a href="discovery.html">Watson Discovery</a></li>
-	  <li><a href="https://pbed.ph">PBEd</a></li>
+      <li><a href="discovery.php">Watson Discovery</a></li>
+	  <li><a href="../index.php">PBEd</a></li>
       </ul>
     <!-- ################################################################################################ -->
   </nav>
@@ -157,7 +149,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			</ul>
 		  </figcaption>
 		  <br>
-		  <figcaption><a href = "discovery.html">Proceed to Watson Discovery</a></figcaption>
+		  <figcaption><a href = "discovery.php">Proceed to Watson Discovery</a></figcaption>
         </figure>
       </div>
       <!-- ################################################################################################ -->
