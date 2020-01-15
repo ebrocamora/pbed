@@ -97,19 +97,32 @@
     <div class="one_third first" style = "width:60%;">
       <h1 class="logoname"><span style = "color:black;">Summary</span></h1>
       <p class="btmspace-30">
-	  
-	  You are helpful and analytical.
+	  <img src="images/pers.png" alt="" style = "height:30%;width:30%;"><img src="images/cons.png" alt="" style = "height:30%;width:30%;"><img src="images/vals.png" alt=""style = "height:30%;width:30%;">
+	  <br><br><h6 style = "font-size:20px;">You are helpful and analytical.
 
 	You are emotionally aware: you are aware of your feelings and how to express them. You are empathetic: you feel what others feel and are compassionate towards them. And you are altruistic: you feel fulfilled when helping others, and will go out of your way to do so.
 
 	Your choices are driven by a desire for well-being.
 
 	You consider both tradition and independence to guide a large part of what you do. You highly respect the groups you belong to and follow their guidance. And you like to set your own goals to decide how to best achieve them.
-	  
+	  </h6>
 	  </p>
       
     </div>
-    <div class="one_third">
+    <div class="one_third"><br><br>
+      <figcaption style = "height:400px;font-size:20px;">Suggested jobs for you based on your personality:<br>
+			<ul style = "padding-left:5%;font-size:15px">
+				<li>Entrepreneur
+				</li>
+				<li>Teacher
+				</li>
+				<li>Social Worker
+				</li>
+			</ul>
+		  </figcaption>
+      
+    </div>
+	<div class="one_third">
       <h6 class="heading">You are likely to:</h6>
       <ul class="nospace linklist">
         <li><a href="#">be influenced by family when making product purchase</a></li>
@@ -132,22 +145,7 @@
 		  
 		  
 		  
-          <ul class="nospace clear" style = "padding-left:20%;">
-            <li class="one_quarter first"><img src="images/pers.png" alt=""></li>
-            <li class="one_quarter"><img src="images/cons.png" alt=""></li>
-            <li class="one_quarter"><img src="images/vals.png" alt=""></li>
-            
-          </ul>
-          <figcaption>Suggested jobs for you based on your personality:
-			<ul style = "padding-left:5%;">
-				<li>Entrepreneur
-				</li>
-				<li>Teacher
-				</li>
-				<li>Social Worker
-				</li>
-			</ul>
-		  </figcaption>
+          
 		  <br>
 		  <figcaption><a href = "discovery.php">Proceed to Watson Discovery</a></figcaption>
         </figure>
@@ -159,17 +157,7 @@
     <div class="clear"></div>
   </main>
 </div>
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
-<!-- ################################################################################################ -->
 <div class="wrapper row5">
   <div id="copyright" class="hoc clear"> 
     <!-- ################################################################################################ -->

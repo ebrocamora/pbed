@@ -95,58 +95,15 @@
 
 <div class="wrapper gradient">
   <section id="testimonials" class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading" style = "font-size:50px"><b>Welcome to Iskwela</b></h6>
-	  <br>
-      <p style = "font-size:17px;">Iskwela is a blah blah blah blah blah...</p>
-    </div>
-	<p style = "font-size:20px;background-color:#AB2328;width:23%;text-align:center;"><b> Introduction to the Project</b></p>
+   
+	<h6 class="heading" style = "font-size:50px;text-align:center;"><b>Welcome to Iskwela</b></h6>
 	<p style = "font-size:17px;text-align:center;background-color:#E5E1E6;color:#AB2328;">This project aims to solve the problem of <b>Skills Gap </b>and <b>Mismatch</b>.<br>
 	</p>
 	<p style = "font-size:17px;text-align:center;background-color:#E5E1E6;color:#AB2328;">The Primary Target Audience for this Project the Unemployed People and Person Who are Looking for A Job.<br>
 	</p>
 	<p style = "font-size:17px;text-align:center;background-color:#E5E1E6;color:#AB2328;">This Project Utilize the Two (2) Tools of IBM Watson namely <b>IBM Watson Personality Insights</b> and <b>IBM Watson Discovery</b> to get the Most Accurate Result that is Needed by the User.<br>
 	</p>
-    <article class="one_half first"><img src="images/per.png" style = "height:30%;width:30%;" alt="">
-      <blockquote><b>This is How the Personality Insights was Used in the Project:</b><br>
-	  
-	  <ol style = "text-align:left">
-		<li>The user will upload his/her Cover Letter.
-		</li>
-		<li>The user will wait for the System to Process the Cover Letter.
-		</li>
-		<li>The Page will show the Result in Text with its Corresponding Bar Chart.
-		</li>
-		<li>The user has the Choice to Proceed to Watson Discovery to Search based on the Result he/she got.
-		</li>
-	  </ol>
-	  
-	  </blockquote>
-      </article>
-    <article class="one_half"><img src="images/dis.png" style = "height:30%;width:30%;" alt="">
-      
-	  <blockquote><b>This is How the Watson Discovery was Used in the Project:</b><br>
-	  
-	  <ol style = "text-align:left">
-		<li>The user will search a certain topic such as:
-			<ul style = "text-align:left;padding-left:20px;">
-				<li>How to Prepare for an Interview.</li>
-				<li>How to Improve Communication Skills.</li>
-				<li>How to learn Java.</li>
-			</ul>
-		</li>
-		<li>The user will wait for the System to Process the Query.
-		</li>
-		<li>The Page will show the Result from the various Legitimate Websites.
-		</li>
-	  </ol>
-	  
-	  
-	  </blockquote>
-      </article>
-	  
-    
+
   </section>
 </div>
 
