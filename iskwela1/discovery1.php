@@ -97,14 +97,14 @@
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<!-- ################################################################################################ --><br><br><br>
+<!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> <br><br><br>
+  <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
-     <br><br><br>
+     
       
       <div id="comments">
         
@@ -113,11 +113,68 @@
 				   <div class="search">
 					  <input type="text" class="searchTerm" placeholder="What are you looking for?">
 					  <button type="submit" class="searchButton">
-						<a href = "discovery1.php"><i class="fa fa-search"></i></a>
+						<i class="fa fa-search"></i>
 					 </button>
 				   </div>
 				</div>
-		
+		<h2>Search Results</h2>
+        <ul>
+          <li>
+            <article>
+              <header>
+               
+                <address style = "font-size:20px;">
+                <a href="landingpage.html">Preparing for an interview</a>
+                </address>
+                <h6 style = "font-size:15px;">By Indeed Career Guide</h6>
+              </header>
+              <div class="comcont">
+                <p>1. Carefully examine the job description <br>
+					2. Consider why you are interviewing and your qualifications <br>
+					3.Perform research on the company and role<br>
+					4.Consider your answers to common interview questions...</p>      <!-- https://www.indeed.com/career-advice/interviewing/how-to-prepare-for-an-interview-->       </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <header>
+               
+                <address style = "font-size:20px;">
+                <a href="landingpage.html">15 Tips for a Successful Job Interview in the Philippines</a>
+                </address>
+                <h6 style = "font-size:15px;">By BusinessTips.ph</h6>
+              </header>
+              <div class="comcont">
+                <p>
+				1. Do a research about the company.<br>
+				2. Review common interview questions.<br>
+				3. Wear your best formal outfit.<br>
+				4. Arrive early... <!-- https://businesstips.ph/tips-for-a-successful-job-interview-in-the-philippines/ -->
+				
+				</p>             </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <header>
+                
+                <address style = "font-size:20px;">
+                <a href="landingpage.html">Your Guide to Making a Great First Impression</a>
+                </address>
+                <h6 style = "font-size:15px;">By Jobstreet</h6>
+              </header>
+              <div class="comcont">
+                <p>
+				1. Do your research.<br>
+				2. Prepare your own questions.<br>
+				3. Plan your outfit.<br>
+				4. Practice your answers... <!-- https://www.jobstreet.com.ph/career-resources/guide-making-great-first-impression#.Xhnx8yMRVEY -->
+				
+				
+				</p>             </div>
+            </article>
+          </li>
+        </ul>
         
       </div>
       <!-- ################################################################################################ -->
