@@ -97,28 +97,113 @@
 </div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-<!-- ################################################################################################ --><br><br><br>
+<!-- ################################################################################################ -->
 <div class="wrapper row3">
-  <main class="hoc container clear"> <br><br><br>
+  <main class="hoc container clear"> 
     <!-- main body -->
     <!-- ################################################################################################ -->
     <div class="content"> 
       <!-- ################################################################################################ -->
-     <br><br><br>
+     
       
       <div id="comments">
         
 			
 				<div class="wrap">
 				   <div class="search">
-					  <input type="text" class="searchTerm" placeholder="What are you looking for?" id = "user-query">
-					  <button type="submit" class="searchButton" onclick = "search()">
+					  <input type="text" class="searchTerm" placeholder="What are you looking for?">
+					  <button type="submit" class="searchButton">
 						<i class="fa fa-search"></i>
 					 </button>
-
 				   </div>
 				</div>
-		
+		<h1 style = "color:blue;">"how to prepare for an interview"</h1>
+		<h2>Search Results</h2>
+        <ul>
+          <li>
+            <article>
+              <header>
+               
+                <address style = "font-size:20px;">
+                <a href="landingpage.html">Employment Guide</a>
+                </address>
+                <h6 style = "font-size:15px;">By Department of Labor and Employment&nbsp;<img src = "images/dole.jpg" style = "height:20px;width:20px;"></h6>
+              </header>
+              <div class="comcont">
+                <p>1. Know your Resume<br>
+					2. Know your Accomplishment, Skills, and Abilities <br>
+					3.Be able to Provide Specific Samples<br>
+					4.Expect Question about your Salary Requirement ...</p>      <!-- https://www.indeed.com/career-advice/interviewing/how-to-prepare-for-an-interview-->       </div>
+            </article>
+          </li>
+          <li>
+            <article>
+              <header>
+               
+                <address style = "font-size:20px;">
+                <a href="landingpage.html">Job Interview Skills Training Course</a>
+                </address>
+                <h6 style = "font-size:15px;">By Technical Education and Skills Development Authority&nbsp;<img src = "images/tesda.jpg" style = "height:20px;width:20px;"> </h6>
+              </header>
+              <div class="comcont">
+                <p>
+				Land your dream job and master your interview skills by <br>
+				studying specific interviewing techniques such as body language, 
+				<br>learning how to prepare for an interview, and practicing common interview questions <br>
+				in this class. This course is relevant to 
+				
+				
+				<!-- https://businesstips.ph/tips-for-a-successful-job-interview-in-the-philippines/ -->
+				
+				</p>             </div>
+            </article>
+          </li>
+		  
+		  <li>
+            <article>
+              <header>
+               
+                <address style = "font-size:20px;">
+                <a href="landingpage.html">How to Build Confidence in Your Abilities Training Course</a>
+                </address>
+                <h6 style = "font-size:15px;">By Technical Education and Skills Development Authority&nbsp;<img src = "images/tesda.jpg" style = "height:20px;width:20px;"> </h6>
+              </header>
+              <div class="comcont">
+                <p>
+				This self-paced material is developed in partnership with Udemy, Inc. <br>
+
+Achieve your goals and develop your confidence through this personal development class! Through scientific research and expert experience,<br>
+ you will learn about behavior, therapy, motivation, and more to become confident in your skills. 
+				
+				
+				<!-- https://businesstips.ph/tips-for-a-successful-job-interview-in-the-philippines/ -->
+				
+				</p>             </div>
+            </article>
+          </li>
+		  
+		  
+          <li>
+            <article>
+              <header>
+                
+                <address style = "font-size:20px;">
+                <a href="landingpage.html">Your Guide to Making a Great First Impression</a>
+                </address>
+                <h6 style = "font-size:15px;">By Jobstreet&nbsp;<img src = "images/jobs.jpg" style = "height:20px;width:20px;"></h6>
+              </header>
+              <div class="comcont">
+                <p>
+				1. Do your research.<br>
+				2. Prepare your own questions.<br>
+				3. Plan your outfit.<br>
+				4. Practice your answers... <!-- https://www.jobstreet.com.ph/career-resources/guide-making-great-first-impression#.Xhnx8yMRVEY -->
+				
+				
+				</p>             </div>
+            </article>
+          </li>
+        </ul>
         
       </div>
       <!-- ################################################################################################ -->
@@ -145,16 +230,5 @@
 <script src="../layout/scripts/jquery.min.js"></script>
 <script src="../layout/scripts/jquery.backtotop.js"></script>
 <script src="../layout/scripts/jquery.mobilemenu.js"></script>
-<script>
-	function search() {
-	  var x = document.getElementById("user-query").value;
-	  if (x == "how to prepare for an interview"){
-		  location.replace("how_to_prepare.php")
-	  } else {
-		  location.replace("jop_openings.php")
-	  } 
-	  
-}
-</script>
 </body>
 </html>

@@ -148,7 +148,7 @@
     <div class="clear">
 		<br>
 		
-		<a href = "personality.php"><p style = "font-size:20px;color:white;text-align:center;background-color:#AB2328;height:30px;width:200px;">Click Here to Try</p></a>
+		<a href = "personality.html"><p style = "font-size:20px;color:white;text-align:center;background-color:#AB2328;height:30px;width:200px;">Click Here to Try</p></a>
 		
 	
 	</div>
