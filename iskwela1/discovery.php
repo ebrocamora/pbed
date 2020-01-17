@@ -148,10 +148,10 @@
 <script>
 	function search() {
 	  var x = document.getElementById("user-query").value;
-	  if (x == "how to prepare for an interview"){
+	  if (x == "how to prepare for an interview" || "How to prepare for an interview"){
 		  location.replace("how_to_prepare.php")
 	  } else {
-		  location.replace("jop_openings.php")
+		  location.replace("how_to_prepare.php")
 	  } 
 	  
 }
